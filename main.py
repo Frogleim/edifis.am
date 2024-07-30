@@ -9,6 +9,18 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+
+@app.route('/contact/')
+def contact():
+    return render_template('contact.html')
+
+
+
+@app.route('/about/')
+def about():
+    return render_template('about.html')
+
+
 def get_ipv4_address():
     try:
         eth0_ip = os.getenv('IP_ETH0')
@@ -22,4 +34,5 @@ def get_ipv4_address():
 
 if __name__ == '__main__':
     ip = get_ipv4_address()
-    app.run(host=ip, debug=True)
+    new_ip = '0.0.0.0'
+    app.run(host=new_ip, port=5050, debug=True)
