@@ -21,6 +21,11 @@ def about():
     return render_template('about.html')
 
 
+@app.route('/projects/')
+def projects():
+    return render_template('projects.html')
+
+
 def get_ipv4_address():
     try:
         eth0_ip = os.getenv('IP_ETH0')

@@ -43,7 +43,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{{ url_for('index') }}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="{{ url_for('static', filename='assets/img/logo.png')}}" alt=""> -->
         <h1 class="sitename">Edifis</h1> <span>.</span>
@@ -51,9 +51,9 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Գլխավոր</a></li>
+          <li><a href="{{ url_for('index') }}" class="active">Գլխավոր</a></li>
           <li><a href="{{ url_for('about') }}">Մեր մասին</a></li>
-          <li><a href="projects.html">Նախագծեր</a></li>
+          <li><a href="{{ url_for('projects') }}">Նախագծեր</a></li>
           <li><a href="{{ url_for('contact') }}">Կապ</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -71,7 +71,7 @@
         <div class="container">
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6 text-center">
-              <h2>Բարի գալուստ </h2>
+              <h2>Էդիֆիս</h2>
             </div>
           </div>
         </div>
