@@ -258,6 +258,18 @@ h6 {
     width: 100%;
   }
 
+   #title {
+    white-space: nowrap;
+    right: 20px;
+    left: 20px;
+
+  }
+  #slogan {
+    white-space: nowrap;
+    text-align: center;
+
+  }
+
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {

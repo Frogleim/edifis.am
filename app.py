@@ -25,6 +25,9 @@ def about():
 def projects():
     return render_template('projects.html')
 
+@app.route('/history/')
+def history():
+    pass
 
 def get_ipv4_address():
     try:
