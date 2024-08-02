@@ -27,7 +27,7 @@ def projects():
 
 @app.route('/history/')
 def history():
-    pass
+    return render_template('history.html')
 
 def get_ipv4_address():
     try:

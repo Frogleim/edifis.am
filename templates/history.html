@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Նախագծեր</title>
+  <title>Արխիվ</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -52,8 +52,8 @@
         <ul>
           <li><a href="{{ url_for('index') }}">Գլխավոր</a></li>
           <li><a href="{{ url_for('about') }}">Մեր մասին</a></li>
-          <li><a href="{{ url_for('projects') }}" class="active">Նախագծեր</a></li>
-          <li><a href="{{ url_for('history') }}">Արխիվ</a></li>
+          <li><a href="{{ url_for('projects') }}">Նախագծեր</a></li>
+          <li><a href="{{ url_for('history') }}" class="active">Արխիվ</a></li>
 
           <li><a href="{{ url_for('contact') }}">Կապ</a></li>
 
@@ -71,11 +71,11 @@
     <!-- Page Title -->
     <div class="page-title dark-background" style="background-image: url('{{ url_for('static', filename='assets/img/page-title-bg.jpg') }}');">
       <div class="container position-relative">
-        <h1>Նախագծեր</h1>
+        <h1>Արխիվ</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Գլխավոր</a></li>
-            <li class="current">Նախագծեր</li>
+            <li class="current">Արխիվ</li>
           </ol>
         </nav>
       </div>
@@ -88,23 +88,17 @@
         <div class="row position-relative">
 
           <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="{{ url_for('static', filename='assets/img/ed_3.jpeg') }}" alt="">
+            <img src="{{ url_for('static', filename='assets/img/qochar/qochar_1.jpeg') }}" alt="">
           </div>
 
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="inner-title">Նազարբեկյան թաղամաս</h2>
+            <h2 class="inner-title">Բնակելի շենքի կառուցում, ք․Երևան, Քոչարի 16/1</h2>
             <div class="our-story">
-              <p>Նազարբեկյան թաղամասը կառուցվում է ք․Երևան Աջափնյակ վարչական շրջանում՝ Նազարբեկյան 44/3 հասցեում։ Համալիրը բաղկացած է լինելու երկու բազմաբնակարան շենքից՝ երկու ստորգետնյա և տասնութ վերգետնյա հարկերով։ Համալիրում գործելու է ընդարձակ ավտոկայանտեղի, կանաչապատ տարածքներ, տարբեր կոմերցիոն նշանակության օբյեկտներ։
-                Համալիրը տեղակայված է Երևանի ամենաարագ զարգացող տեղանքում․ կից է հյուսիս-հարավ ավտոմայրուղուն, ինչի շնորհիվ բնակիչները կկարողանան իրենց թաղամասից 10-15 րոպեում հասնել քաղաքի կենտրոնական հատվածներ։
-                Այժմ ընթանում է բնակելի համալիրի Ա մասնաշենքի կառուցապատումը։ Շինավարտը նախատեսվում է 2027 թվականին։
-            
-                <ul>
-                  <li><i class="bi bi-check-circle"></i> <span>Կառուցապատող՝ Էյ Ջի քոնսթրաքթ ՍՊԸ</span></li>
-                  <li><i class="bi bi-check-circle"></i> <span>Կապալառու՝ Էդիֆիս ՍՊԸ</span></li>
-                  <li><i class="bi bi-check-circle"></i> <span>Հեղնիկային հսկողություն՝ Արխի-գրաֆ ՍՊԸ </span</li>
-                    <li><i class="bi bi-check-circle"></i> <span>Շինարարության թույլտվություն՝ 01/50-02-784-24</p></span></li>
+              <p>
+                Էդիֆիս ՍՊԸ-ի Երևանշին ՍՊԸ-ի կողմից համատեղ կառուցած շենքերը՝ ք․Երևան, Հրաչյա Քոչարի 16/1 հասցեում՝ Երևանի քաղաքապետարանի պատվերով։
 
-                  </ul>
+              </p>
+            
               </div>
             </div>
           </div>
@@ -119,7 +113,6 @@
     <section id="projects" class="projects section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Նախագիծ</h2>
-        <p>Նազարբեկյան 44/3</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -132,11 +125,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_1.jpeg') }}" class="img-fluid" alt="">
+                <img src="{{ url_for('static', filename='assets/img/qochar/qochar_1.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_1.jpeg') }}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ url_for('static', filename='assets/img/qochar/qochar_1.jpeg') }}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 
                 </div>
@@ -145,11 +138,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_2.jpeg') }}" class="img-fluid" alt="">
+                <img src="{{ url_for('static', filename='assets/img/qochar/qochar_2.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Product 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_2.jpeg') }}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ url_for('static', filename='assets/img/qochar/qochar_2.jpeg') }}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -157,11 +150,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_3.jpeg') }}" class="img-fluid" alt="">
+                <img src="{{ url_for('static', filename='assets/img/qochar/qochar_3.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Branding 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_3.jpeg') }}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ url_for('static', filename='assets/img/qochar/qochar_3.jpeg') }}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -169,11 +162,109 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_4.jpeg') }}" class="img-fluid" alt="">
+                <img src="{{ url_for('static', filename='assets/img/qochar/qochar_4.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Books 1</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_4.jpeg') }}" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ url_for('static', filename='assets/img/qochar/qochar_4.jpeg') }}" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Projects Section -->
+
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row position-relative">
+
+          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="{{ url_for('static', filename='assets/img/opera/opera.jpg') }}" alt="">
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="inner-title">Հայաստանի օպերայի եվ բալետի ազգային թատրոնի վերանորոգում</h2>
+            <div class="our-story">
+              <p>
+                Էդիֆիս ՍՊԸ-ի կողմից իրականացված՝ Հայաստանի օպերայի եվ բալետի ազգային թատրոնի ներքին վերակառուցման աշխատանքները՝ Երևանի քաղաքապետարանի պատվերով։
+              </p>
+            
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Նախագիծ</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="{{ url_for('static', filename='assets/img/opera/opera_1.jpeg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ url_for('static', filename='assets/img/opera/opera_1.jpeg') }}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="{{ url_for('static', filename='assets/img/opera/opera_2.jpeg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ url_for('static', filename='assets/img/opera/opera_2.jpeg') }}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="{{ url_for('static', filename='assets/img/opera/opera_3.jpeg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ url_for('static', filename='assets/img/opera/opera_3.jpeg') }}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="{{ url_for('static', filename='assets/img/opera/opera_4.jpeg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{{ url_for('static', filename='assets/img/opera/opera_4.jpeg') }}" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -181,11 +272,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_5.jpeg') }}" class="img-fluid" alt="">
+                <img src="{{ url_for('static', filename='assets/img/opera/opera_5.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_5.jpeg') }}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ url_for('static', filename='assets/img/opera/opera_5.jpeg') }}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -193,11 +284,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_6.jpeg') }}" class="img-fluid" alt="">
+                <img src="{{ url_for('static', filename='assets/img/opera/opera_6.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Product 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_6.jpeg') }}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ url_for('static', filename='assets/img/opera/opera_6.jpeg') }}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -205,27 +296,16 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_7.jpeg') }}" class="img-fluid" alt="">
+                <img src="{{ url_for('static', filename='assets/img/opera/opera_7.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Branding 2</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_7.jpeg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{{ url_for('static', filename='assets/img/opera/opera_7.jpeg') }}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-              <div class="portfolio-content h-100">
-                <img src="{{ url_for('static', filename='assets/img/ed_8.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="{{ url_for('static', filename='assets/img/ed_8.jpeg') }}" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
           </div><!-- End Portfolio Container -->
 
         </div>
